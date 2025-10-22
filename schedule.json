@@ -1,0 +1,52 @@
+{
+    "esp": "192.168.100.9",
+    "computer": "192.168.100.10",
+    "url": {
+        "contactor-on": "/contactor/on",
+        "contactor-off": "/contactor/off",
+        "computer-push": "/computer/push"
+    },
+    "sunday": {
+        "on": "08:00",
+        "off": "19:00",
+        "interval": [
+            
+        ]
+    },
+    "monday": {
+        "on": "08:00",
+        "off": "20:00",
+        "interval": [
+            ["08:15", "11:15"]
+        ]
+    },
+    "tuesday": {
+        "on": "08:00",
+        "off": "20:00",
+        "interval": []
+    },
+    "wednesday": {
+        "on": "08:00",
+        "off": "20:00",
+        "interval": [
+            ["07:00", "11:15"]
+        ]
+    },
+    "thursday": {
+        "on": "08:00",
+        "off": "20:00",
+        "interval": []
+    },
+    "friday": {
+        "on": "08:00",
+        "off": "20:00",
+        "interval": [
+            ["07:00", "11:15"]
+        ]
+    },
+    "saturday": {
+        "on": "08:00",
+        "off": "20:00",
+        "interval": []
+    }
+}

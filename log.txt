@@ -1,0 +1,84 @@
+2025-08-25 08:34:57.852086 - Computer is already on.
+2025-08-29 15:38:51.425793 - Computer is off, trying to turn it on.
+2025-08-29 15:38:51.429728 - Trying to request 192.168.100.9/contactor/on
+2025-08-29 15:38:51.675429 - Request to 192.168.100.9/contactor/on succeeded
+2025-08-29 15:38:53.677325 - Attempting to push computer on, attempt 1.
+2025-08-29 15:38:53.677908 - Trying to request 192.168.100.9/computer/push
+2025-08-29 15:38:54.842671 - Request to 192.168.100.9/computer/push succeeded
+2025-08-29 15:40:24.867838 - Computer is now on.
+2025-08-29 15:43:56.544641 - Computer is off, trying to turn it on.
+2025-08-29 15:43:56.546300 - Trying to request 192.168.100.9/contactor/on
+2025-08-29 15:43:56.846199 - Request to 192.168.100.9/contactor/on succeeded
+2025-08-29 15:43:58.858382 - Attempting to push computer on, attempt 1.
+2025-08-29 15:43:58.859067 - Trying to request 192.168.100.9/computer/push
+2025-08-29 15:44:00.222012 - Request to 192.168.100.9/computer/push succeeded
+2025-08-29 15:45:32.230635 - Attempting to push computer on, attempt 2.
+2025-08-29 15:45:32.231710 - Trying to request 192.168.100.9/computer/push
+2025-08-29 15:45:33.431303 - Request to 192.168.100.9/computer/push succeeded
+2025-08-29 15:47:05.436547 - Attempting to push computer on, attempt 3.
+2025-08-29 15:47:05.437270 - Trying to request 192.168.100.9/computer/push
+2025-08-29 15:47:06.716285 - Request to 192.168.100.9/computer/push succeeded
+2025-08-29 15:48:36.729106 - Computer is now on.
+2025-08-29 16:04:14.928519 - Not between the scheduled times.
+2025-08-29 16:04:14.961329 - Trying to request 192.168.100.9/computer/push
+2025-08-29 16:04:16.351289 - Request to 192.168.100.9/computer/push succeeded
+2025-08-29 16:05:50.365613 - Computer is now off.
+2025-10-21 14:06:03.497629 - Computer is already on.
+2025-10-21 14:08:50.631931 - Computer is off, trying to turn it on.
+2025-10-21 14:08:50.674807 - Trying to request 192.168.100.9/contactor/on
+2025-10-21 14:08:50.737978 - Request to 192.168.100.9/contactor/on succeeded
+2025-10-21 14:08:52.751015 - Attempting to push computer on by WOL, attempt 1.
+2025-10-21 14:09:22.793184 - Computer is now on.
+2025-10-22 11:38:25.415980 - Current time 11:38 is outside the interval 13:30 - 11:30. Proceeding to shutdown.
+2025-10-22 11:38:38.322903 - Current time 11:38 is within the interval 13:30 - 11:30. Keeping computer on.
+2025-10-22 11:41:34.094807 - Computer is already on.
+2025-10-22 14:31:52.069085 - Not between the scheduled times.
+2025-10-22 14:31:52.086635 - Attempting to shutdown computer, attempt 1.
+2025-10-22 14:31:52.087591 - Shutdown command sent.
+2025-10-22 14:33:22.098306 - Attempting to shutdown computer, attempt 2.
+2025-10-22 14:33:22.099631 - Shutdown command sent.
+2025-10-22 14:34:19.033448 - Current time 14:34 is within the interval 07:00 - 15:15. Keeping computer on.
+2025-10-22 14:34:19.038373 - Not between the scheduled times.
+2025-10-22 14:34:19.047205 - Attempting to shutdown computer, attempt 1.
+2025-10-22 14:34:19.048470 - Shutdown command sent.
+2025-10-22 14:36:29.378670 - Current time 14:36 is within the interval 07:00 - 15:15. Shutting down computer.
+2025-10-22 14:36:29.422281 - Not between the scheduled times.
+2025-10-22 14:36:33.439544 - Computer is now off.
+2025-10-22 14:36:33.440842 - Trying to turn off the contactor.
+2025-10-22 14:36:41.548529 - Trying to request 192.168.100.9/contactor/on
+2025-10-22 14:36:41.744481 - Request to 192.168.100.9/contactor/on succeeded
+2025-10-22 14:36:43.755318 - Attempting to push computer on by WOL, attempt 1.
+2025-10-22 14:37:15.759721 - Attempting to push computer on by WOL, attempt 2.
+2025-10-22 14:37:47.764790 - Attempting to push computer on by WOL, attempt 3.
+2025-10-22 14:38:16.131586 - Trying to request 192.168.100.9/contactor/on
+2025-10-22 14:38:16.315598 - Request to 192.168.100.9/contactor/on succeeded
+2025-10-22 14:38:18.324632 - Attempting to push computer on by WOL, attempt 1.
+2025-10-22 14:38:48.336155 - Computer is now on.
+2025-10-22 15:01:53.888180 - Not between the scheduled times.
+2025-10-22 15:01:57.914421 - Computer is now off.
+2025-10-22 15:01:57.915739 - Trying to turn off the contactor.
+2025-10-22 15:01:57.916845 - Trying to request 192.168.100.9/contactor/off
+2025-10-22 15:02:07.862091 - Request to 192.168.100.9/contactor/off failed with exception: HTTPConnectionPool(host='192.168.100.9', port=80): Read timed out. (read timeout=5)
+2025-10-22 15:02:59.644152 - Trying to request 192.168.100.9/contactor/on
+2025-10-22 15:03:01.385767 - Request to 192.168.100.9/contactor/on succeeded
+2025-10-22 15:03:03.394960 - Attempting to push computer on by WOL, attempt 1.
+2025-10-22 15:04:03.405079 - Computer is now on.
+2025-10-22 15:04:43.357194 - Current time 15:04 is within the interval 07:00 - 15:15. Shutting down computer.
+2025-10-22 15:04:43.359920 - Not between the scheduled times.
+2025-10-22 15:04:43.366278 - Attempting to shutdown computer, attempt 1.
+2025-10-22 15:04:44.058558 - Shutdown command sent.
+2025-10-22 15:05:30.097460 - Current time 15:05 is within the interval 07:00 - 15:15. Shutting down computer.
+2025-10-22 15:05:30.140180 - Not between the scheduled times.
+2025-10-22 15:05:30.146225 - Attempting to shutdown computer, attempt 1.
+2025-10-22 15:05:30.523775 - Shutdown command sent.
+2025-10-22 15:07:02.529697 - Finished shutdown attempts.
+2025-10-22 15:07:04.542997 - Computer is now off.
+2025-10-22 15:07:04.544111 - Trying to turn off the contactor.
+2025-10-22 15:07:04.544839 - Trying to request 192.168.100.9/contactor/off
+2025-10-22 15:07:04.631463 - Request to 192.168.100.9/contactor/off succeeded
+2025-10-22 15:07:14.195493 - Trying to request 192.168.100.9/contactor/on
+2025-10-22 15:07:14.262764 - Request to 192.168.100.9/contactor/on succeeded
+2025-10-22 15:07:16.275927 - Attempting to push computer on by WOL, attempt 1.
+2025-10-22 15:08:18.288140 - Attempting to push computer on by WOL, attempt 2.
+2025-10-22 15:09:20.289039 - Attempting to push computer on by WOL, attempt 3.
+2025-10-22 15:10:20.287995 - Computer is now on.
